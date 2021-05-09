@@ -68,7 +68,8 @@ body{
 .desktop-nav .menu-item li a.btn {
     color: var(--light-color);
 }
-a.btn{
+a.btn,
+button.btn{
     background-color: var(--red-color);
     color: var(--light-color);
     border-radius: 24px;
@@ -76,6 +77,9 @@ a.btn{
     text-decoration: none;
     font-weight: bold;
     transition: background-color 400ms;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
 }
 section {
     padding-top: 100px;
@@ -89,7 +93,8 @@ a.btn:hover{
 a.btn.cyan:hover{
     background-color: var(--cyan-hover-color);
 }
-a.btn.cyan{
+a.btn.cyan,
+button.btn.cyan{
     color: var(--dark-color);
     background-color: var(--cyan-color);
 }
